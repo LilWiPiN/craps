@@ -1,0 +1,46 @@
+body{
+  background-image:url("../img/fondoPag.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.dado{
+  background-image:url(https://i.pinimg.com/originals/0b/61/ba/0b61ba096406865f0e76a9b07e36dc69.png);
+  background-position:-803px;
+  width:157px;
+  height:156px;
+
+}
+#contenedorDados{
+  display:flex;
+  width:315px;
+  margin:0 auto;
+}
+
+#boton_Tirar{
+  display:block;
+  width:100px;
+  height:60px;
+  margin:10px auto;
+  background-color:#E3001B;
+  color:white;
+  font-size:20px;
+  font-family:consolas;
+  border:0;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding:10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family:"rockwell";
+  font-size: 25px;
+  color:white;
+}
