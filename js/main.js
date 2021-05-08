@@ -42,6 +42,7 @@ function jugar(){
   		if(turno == 1){
   			punto = total;
         	console.log("Punto es ",punto);
+        	alert("Tiene que volver a sacar un " + punto + " para ganar, si saca un 7 primero, perderá.");
 		}
 
     	if(total == punto && turno > 1){
