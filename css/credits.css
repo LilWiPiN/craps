@@ -1,9 +1,22 @@
+html{
+	color: white;
+}
+
 body{
-  /*background-image:url("../img/fondoPag.png");
+  background-image:url("https://i.pinimg.com/originals/6a/d8/f5/6ad8f5ec58db94b8db22f34146842575.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
+}
+
+#contenedor{
+	text-align: center;
+}
+
+.media{
+	margin: 2px;
+	display:inline-block;
 }
 
 footer{
