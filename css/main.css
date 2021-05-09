@@ -36,7 +36,13 @@ body{
   font-family: consolas;
   border: 0;
   border-radius: 10px;
+  box-shadow: 2px 8px 1px #888888;
   cursor: pointer;
+}
+
+#boton_Tirar:hover{
+  background-color: #ff001e; 
+  
 }
 
 #mensajeTexto{
@@ -97,7 +103,7 @@ body{
 }
 
 .botonCerrar:hover{
-  background-color: #ff6666;
+  background-color: #f53d3d;
   color: white;
 }
 

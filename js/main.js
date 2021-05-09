@@ -12,7 +12,6 @@ function init(){
 	dado1 = document.getElementById("dado1");
 	dado2 = document.getElementById("dado2");
   	cerrar.addEventListener("click",cerrarVentana);
-
 }
 
 function tirarDado(){ //retorna numero entre 1 y 6
