@@ -36,13 +36,15 @@ body{
   font-family: consolas;
   border: 0;
   border-radius: 10px;
-  box-shadow: 2px 8px 1px #888888;
+  box-shadow: 2px 8px 0px #888888;
   cursor: pointer;
 }
 
 #boton_Tirar:hover{
   background-color: #ff001e; 
-  
+  width: 95px;
+  height: 55px;
+  margin: 15px auto;
 }
 
 #mensajeTexto{
