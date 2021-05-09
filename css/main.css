@@ -4,8 +4,12 @@ html{
   font-family: verdana;
 }
 
+#instrucciones{
+  font-size: 15px;
+}
+
 body{
-  background-image:url("../img/fondoPag.png");
+  background-image:url("https://cdn.hipwallpaper.com/i/83/24/NnWiTw.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,21 +34,24 @@ body{
   width: 100px;
   height: 60px;
   margin: 10px auto;
-  background-color: #E3001B;
+  background-color: #0090e3;
   color: white;
   font-size: 20px;
   font-family: consolas;
   border: 0;
   border-radius: 10px;
-  box-shadow: 2px 8px 0px #888888;
+  box-shadow: 0 5px #888888;
   cursor: pointer;
 }
 
 #boton_Tirar:hover{
-  background-color: #ff001e; 
-  width: 95px;
-  height: 55px;
-  margin: 15px auto;
+  background-color: #00a2ff; 
+}
+
+#boton_Tirar:active{
+  background-color: #33b4ff;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
 }
 
 #mensajeTexto{
